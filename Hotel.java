@@ -9,7 +9,7 @@ package com.mycompany.examentercera;
  * @author DAW
  */
 public class Hotel implements Comparable<Hotel> {
-
+      //hola estoy modificando un archivo
     private final String Nombre;
     private final String cadena;
     private final String Ubicacion;
@@ -19,10 +19,14 @@ public class Hotel implements Comparable<Hotel> {
     public Hotel(String Nombre, String cadena, String Ubicacion, int capacidad) {
         this.Nombre = Nombre;
         this.cadena = cadena;
+
+
+
+
         this.Ubicacion = Ubicacion;
         this.capacidad = capacidad;
     }
-
+      // modificacion  ultima
     public String getNombre() {
         return Nombre;
     }
